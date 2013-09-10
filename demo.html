@@ -1,0 +1,60 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<head>
+    <title>Lava Lamp Menu Demo</title>
+    <link rel="stylesheet" href="lavalamp_test.css" type="text/css" media="screen">
+	<meta name="author" content="www.miendatweb.com, nguyentrungtinh29@gmail.com">
+    <script type="text/javascript" src="jquery-1.1.3.1.min.js"></script>
+    <script type="text/javascript" src="jquery.easing.min.js"></script>
+    <script type="text/javascript" src="jquery.lavalamp.min.js"></script>
+    <script type="text/javascript">
+        $(function() {
+            $("#1, #2, #3").lavaLamp({
+                fx: "backout", 
+                speed: 700,
+                click: function(event, menuItem) {
+                    return false;
+                }
+            });
+        });
+    </script>
+</head>
+
+<body>
+<h2>TẠO MENU VỚI HIỆU ỨNG ĐỘC ĐÁO TỪ JQUERY</h2>
+<h3>With Image</h3>
+<ul class="lavaLampWithImage" id="1">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Sản Phẩm</a></li>
+    <li><a href="#">Khách Hàng</a></li>
+    <li><a href="#">Liên Hệ</a></li>
+</ul>
+
+<br><br><br>
+
+<h3>No Image</h3>
+<ul class="lavaLampNoImage" id="2">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Sản Phẩm</a></li>
+    <li><a href="#">Khách Hàng</a></li>
+    <li><a href="#">Liên Hệ</a></li>
+</ul>
+
+<br><br><br> 
+
+<h3>Bottom Style</h3>
+<ul class="lavaLampBottomStyle" id="3">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Sản Phẩm</a></li>
+    <li><a href="#">Khách Hàng</a></li>
+    <li><a href="#">Liên Hệ</a></li>
+</ul>
+
+</body></html>
+
+
+
+
+
+
